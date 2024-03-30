@@ -1,0 +1,16 @@
+.child {
+  background-color: aqua;
+  height: 200px;
+  width: 400px;
+  margin: 20px;
+}
+.box {
+  border: 1px solid red;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+}

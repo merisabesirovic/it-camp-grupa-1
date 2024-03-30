@@ -1,0 +1,15 @@
+.text {
+  text-align: center;
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px red;
+  font-style: italic;
+  font-weight: 900;
+  color: blue;
+  background-color: blanchedalmond;
+  line-height: 20px;
+  word-spacing: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+}
