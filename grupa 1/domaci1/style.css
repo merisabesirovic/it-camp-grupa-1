@@ -1,0 +1,24 @@
+.tabla {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.c {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}
+.b {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
