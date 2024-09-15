@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <h1 id="element1">Klikni ispod</h1>
+    <button onclick="prikaziTekst()">Klikni</button>
+    <p id="tekst"></p>
+
+    <h1 id="naslov" onmouseout="skloni()" onmouseover="prikaziDrugi()">
+      Naslov2
+    </h1>
+    <p id="drugiTekst"></p>
+  </body>
+</html>
+Napravite jednostavnu HTML stranicu koja ima sledeće funkcionalnosti: Na
+stranici se nalazi dugme koje, kada se klikne, prikazuje određeni tekst u
+paragrafu ispod njega. Osim što prikazuje tekst, potrebno je i da se boja tog
+teksta promeni u plavu. Postoji naslov ("Naslov2") koji menja tekst u paragrafu
+ispod njega kada pređete mišem preko naslova. Kada miš izađe iznad naslova,
+tekst treba da nestane. Tekst koji se prikazuje prilikom prelaska miša mora biti
+obojen u zelenu boju. Na stranici postoji još jedno dugme koje, kada se klikne,
+dinamički dodaje novi paragraf sa tekstom "Ovo je novi element!" unutar
+kontejnera. Svaki put kada kliknete na dugme, dodaće se novi paragraf ispod
+prethodnog.
